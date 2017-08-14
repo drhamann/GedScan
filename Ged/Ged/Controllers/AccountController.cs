@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Ged.Models;
 using System.Web.Security;
+using Ged.Core;
 
 namespace Ged.Controllers
 {
@@ -49,13 +50,22 @@ namespace Ged.Controllers
             var result = SignInStatus.Failure;
 
 
+            LdapAuthenticator ldapAuth = new LdapAuthenticator();
+            bool expected = ldapAuth.DoAuthentication(model.Domain, model.UserName, model.Password);
 
-            FormsAuthentication.SetAuthCookie(model.UserName, false);
-            var authTicket = new FormsAuthenticationTicket(1, model.UserName, DateTime.Now, DateTime.Now.AddMinutes(1), false,model.Domain);
-            string encryptedTicket = FormsAuthentication.Encrypt(authTicket);
-            var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
-            HttpContext.Response.Cookies.Add(authCookie);
-
+            if (expected)
+            {
+                FormsAuthentication.SetAuthCookie(model.UserName, false);
+                var authTicket = new FormsAuthenticationTicket(1, model.UserName, DateTime.Now, DateTime.Now.AddMinutes(1), false, model.Domain);
+                string encryptedTicket = FormsAuthentication.Encrypt(authTicket);
+                var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
+                HttpContext.Response.Cookies.Add(authCookie);
+                result = SignInStatus.Success;
+            }
+            else
+            {
+                FormsAuthentication.SignOut();
+            }
 
             switch (result)
             {

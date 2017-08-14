@@ -33,7 +33,6 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Owin
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.dll
-D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.pdb
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -51,7 +50,8 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Micr
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.xml
-D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\obj\Debug\Ged.Tests.csprojResolveAssemblyReference.cache
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\obj\Debug\Ged.Tests.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\obj\Debug\Ged.Tests.pdb
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Core.dll
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Core.pdb

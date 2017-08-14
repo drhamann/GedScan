@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LdapAuthenticatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -92,6 +93,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Ged.Core\Ged.Core\Ged.Core.csproj">
+      <Project>{DD257565-7225-4030-8B41-6C45EBD28134}</Project>
+      <Name>Ged.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Ged\Ged.csproj">
       <Project>{6713FBF8-AECB-4850-A4BF-FF7A704D831E}</Project>
       <Name>Ged</Name>

@@ -80,3 +80,5 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\bin\Microsoft.Owin.S
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\obj\Debug\Ged.csprojResolveAssemblyReference.cache
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\obj\Debug\Ged.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\obj\Debug\Ged.pdb
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\bin\Ged.Core.dll
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged\bin\Ged.Core.pdb
