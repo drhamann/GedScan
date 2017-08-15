@@ -51,9 +51,9 @@ namespace Ged.Controllers
 
 
             LdapAuthenticator ldapAuth = new LdapAuthenticator();
-            bool expected = ldapAuth.DoAuthentication(model.Domain, model.UserName, model.Password);
+            var expected = ldapAuth.CreateSession(model.Domain, model.UserName, model.Password);
 
-            if (expected)
+            if (expected != null)
             {
                 FormsAuthentication.SetAuthCookie(model.UserName, false);
                 var authTicket = new FormsAuthenticationTicket(1, model.UserName, DateTime.Now, DateTime.Now.AddMinutes(1), false, model.Domain);

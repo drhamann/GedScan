@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ged.Core.VO;
 
 namespace Ged.Core.Tests
 {
@@ -41,6 +42,15 @@ namespace Ged.Core.Tests
             LdapAuthenticator ldapAuth = new LdapAuthenticator();
             bool expected = ldapAuth.DoAuthentication("nddigital", "matheus.silva", "ndd@123");
             Assert.AreEqual(expected, false);
+        }
+
+
+        [TestMethod()]
+        public void DoAuthenticationWithDbTest()
+        {
+            LdapAuthenticator ldapAuth = new LdapAuthenticator();
+            UserVO expected = ldapAuth.CreateSession("testes.nddigital.local", "matheus.silva", "ndd@123");
+            Assert.AreEqual(expected.Logon, "matheus.silva");
         }
     }
 }

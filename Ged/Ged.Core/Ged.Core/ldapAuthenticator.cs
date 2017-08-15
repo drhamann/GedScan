@@ -3,6 +3,7 @@ using System.Net;
 using System.DirectoryServices;
 using System.DirectoryServices.Protocols;
 using System.Security.Permissions;
+using Ged.Core.VO;
 
 namespace Ged.Core
 {
@@ -35,6 +36,21 @@ namespace Ged.Core
             }
 
             return false;
+        }
+
+        public UserVO CreateSession(string Domain, string User, string Password) {
+
+            if (DoAuthentication(Domain,User,Password)) {
+                UserVO userVo = new UserVO()
+                {
+                    Domain = Domain,
+                    Logon = User
+                };
+
+                return HelperVO.GetIntance().userContext.CreateUser(userVo);
+            }
+
+            return null;
         }
 
     }

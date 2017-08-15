@@ -16,6 +16,6 @@ namespace Ged.Core.VO
         public string Email { get; set; }
         public string Logon { get; set; }
         public string Domain { get; set; }
-        public List<Folder> GetFolder { get; set; }
+        //public List<Folder> GetFolder { get; set; }
     }
 }

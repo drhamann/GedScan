@@ -15,7 +15,6 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Tests.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Tests.pdb
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.dll
-D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\System.Web.Helpers.dll
@@ -32,9 +31,7 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Micr
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Owin.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.pdb
-D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\System.Web.Helpers.xml
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\System.Web.Mvc.xml
@@ -55,3 +52,6 @@ D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\obj\Debug\Ged.
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\obj\Debug\Ged.Tests.pdb
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Core.dll
 D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\Ged.Core.pdb
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.dll
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Area de Trabalho\Diversos\GitHubDrhamann\GedScan\Ged\Ged.Tests\bin\Debug\EntityFramework.SqlServer.xml
