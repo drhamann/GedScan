@@ -13,5 +13,10 @@ namespace Ged.Controllers
         {
             return View();
         }
+
+        public ActionResult AddContent()
+        {
+            return PartialView();
+        }
     }
 }
