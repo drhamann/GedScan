@@ -14,16 +14,22 @@ namespace Ged.Core.VO
         //public UserContext() :base()
 
         public UserVO CreateUser(UserVO user) {
-
-            this.users.Add(user);
-            this.SaveChanges();
-            return SelectUserByLogonAndDomain(user.Domain, user.Logon);
+            UserVO UserFromDB = this.SelectUserByLogonAndDomain(user.Domain, user.Logon);
+            if (UserFromDB == null)
+           
+            {
+                this.users.Add(user);
+                this.SaveChanges();
+                UserFromDB = SelectUserByLogonAndDomain(user.Domain, user.Logon);
+            }
+            return UserFromDB;
         }
 
         public UserVO SelectUserByLogonAndDomain(String Domain, String Logon) {
             var usersFromDb = from u in users where u.Domain.Equals(Domain) && u.Logon.Equals(Logon) select u;
-
-            return usersFromDb.ToList()[0];
+            if (usersFromDb.ToList().Count == 0)
+                return null;
+                return usersFromDb.ToList()[0];
         }
     }
 }
